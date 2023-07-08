@@ -4,15 +4,15 @@
 
 Setup MySQL on your local environment. Create schema "Request", "Currency".       
 This is a maven project built with maven.        
-Project can be built using command line : mvn clean install  .   
-To run the application using command line : mvn spring-boot:run .  
+Project can be built using command line : mvn clean install.   
+To run the application using command line : mvn spring-boot:run or 
 Application is accessible at :  
-1. create request page - http://localhost:8080/home
+- end point request page - http://localhost:8080/home
 
 
 # Technology Used
 
-Java 17 , Spring boot , Maven , Spring boot JPA  , Spring boot thymeleaf , Spring Caching , Postgresql           
+Java , Spring boot , Maven , Spring boot JPA  , Spring boot thymeleaf , Postgresql, HTML/CSS/JS, JUNIT, GNU Make, Chocolaty, Apache Maven, and Docker           
 
 # Problem Statement
 
@@ -39,4 +39,19 @@ Proper documentation using md.
 Delivered over Githhub.com.
 Makefile to streamline running application (plus).
 
+# To streamline running application 
+### we can use Makefile to:
 
+-  clean  - Clean build artifacts
+-  build  - Build the project
+-  run    - Run the application
+-  test   - Run tests
+-  help   - Display this help message
+
+### Future Work:
+
+- using ehcache to make the performance of request faster
+- deploy the project on heroku or AWS ec2
+- complete convertor method in Front-end side
+- Normalise database instead of using two table
+- - Go deeping thorugh docker
