@@ -54,4 +54,6 @@ Makefile to streamline running application (plus).
 - deploy the project on heroku or AWS ec2
 - complete convertor method in Front-end side
 - Normalise database instead of using two table
-- - Go deeping thorugh docker
+- Go deeping thorugh docker
+
+*Please do not hesitate to contact me if you have any concerns in mind. my email: r.khawatreh13@gmail.com*
